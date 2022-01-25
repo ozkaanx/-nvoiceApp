@@ -1,0 +1,62 @@
+.popUpMenu {
+  position: absolute;
+  border: 1px solid rgb(236, 236, 236);
+  width: 400px;
+  height: 270px;
+  top: 90px;
+  left: 100px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  .product-group {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 10px;
+    font-family: "Open Sans", sans-serif;
+    label {
+      font-size: 15px;
+      font-weight: bold;
+    }
+    input {
+      height: 35px;
+      padding: 10px;
+      font-size: 13px;
+      font-family: "Open Sans", sans-serif;
+      color: black;
+      &:last-child {
+        width: 150px;
+        font-weight: bold;
+        color: red;
+      }
+    }
+  }
+  span {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    &:hover {
+      color: red;
+    }
+  }
+  .addBtn {
+    padding: 10px 20px;
+    width: 150px;
+    position: absolute;
+    right: 18px;
+    bottom: 10px;
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid rgb(206, 206, 206);
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    &:hover {
+      border: 2px solid rgba(58, 94, 251, 0.986);
+    }
+  }
+}

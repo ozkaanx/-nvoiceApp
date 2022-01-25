@@ -1,0 +1,16 @@
+.saveBtn {
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+  > button {
+    padding: 14px 10px;
+    border: 1px solid crimson;
+    background-color: transparent;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    &:hover {
+      background-color: crimson;
+      color: white;
+    }
+  }
+}
